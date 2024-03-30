@@ -1,5 +1,5 @@
 {
-  "name": "angular-research",
+  "name": "math-app",
   "version": "1.0.0",
   "description": "Module Angular Research",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xevurah/Angular-Research.git"
+    "url": "git+https://github.com/Xevurah/Math-App.git"
   },
   "keywords": [
     "angular",
@@ -17,7 +17,7 @@
   "author": "Eduardo Ali Garcia <ali_524-@hotmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Xevurah/Angular-Research/issues"
+    "url": "https://github.com/Xevurah/Math-App/issues"
   },
-  "homepage": "https://github.com/Xevurah/Angular-Research#readme"
+  "homepage": "https://github.com/Xevurah/Math-App#readme"
 }
