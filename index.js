@@ -7,7 +7,7 @@ module.exports = {
      * @returns 
      */
     sum: function (n1,n2){
-        return n1 + n2;
+        return (this.isnumber(n1,n2) ? n1 + n2: this.errormsg());
     },
     /**
      * Subtraction of two numbers
@@ -16,8 +16,8 @@ module.exports = {
      * @param {*} n2 Second number of the subtraction
      * @returns 
      */
-    substraction: function (n1,n2){
-        return n1 - n2;
+    subtraction: function (n1,n2){
+        return (this.isnumber(n1,n2) ? n1 - n2: this.errormsg());
     },
     /**
      * Multiplication of two numbers
@@ -27,7 +27,7 @@ module.exports = {
      * @returns 
      */
     multiplication: function (n1,n2){
-        return n1 * n2;
+        return (this.isnumber(n1,n2) ? n1 * n2: this.errormsg());
     },
     /**
      * Division of two numbers
@@ -37,6 +37,25 @@ module.exports = {
      * @returns 
      */
     division: function (n1,n2){
-        return n1 / n2;
+        return (this.isnumber(n1,n2) ? n1 / n2: this.errormsg());
+    },
+    /**
+     * Error message that excecutes when no numbers are on input
+     */
+    errormsg: function(){
+        console.log('one or more values are not numbers')
+    },
+    /**
+     * Validate that values are numeric type
+     * 
+     * @param {*} n1 
+     * @param {*} n2 
+     * @returns 
+     */
+    isnumber: function(n1,n2){
+        if(typeof n1!=='number' || typeof n2!=='number'){
+            return false;
+        }
+        return true;
     }
 }
