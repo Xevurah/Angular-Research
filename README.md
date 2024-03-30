@@ -9,7 +9,7 @@ Follow this instructions
 npm install <xevurah-math-app> 
 ```
 
-# Uso
+# Usage
 Follow this instructions
 
 ```
