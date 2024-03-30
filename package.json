@@ -11,8 +11,11 @@
     "url": "git+https://github.com/Xevurah/Math-App.git"
   },
   "keywords": [
-    "angular",
-    "nodejs"
+    "math",
+    "sum",
+    "subtraction",
+    "multiplication",
+    "division"
   ],
   "author": "Eduardo Ali Garcia <ali_524-@hotmail.com>",
   "license": "MIT",
