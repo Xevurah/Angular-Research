@@ -10,10 +10,10 @@ module.exports = {
         return n1 + n2;
     },
     /**
-     * Substraction of two numbers
+     * Subtraction of two numbers
      * 
-     * @param {*} n1 First number of the substraction
-     * @param {*} n2 Second number of the substraction
+     * @param {*} n1 First number of the subtraction
+     * @param {*} n2 Second number of the subtraction
      * @returns 
      */
     substraction: function (n1,n2){
